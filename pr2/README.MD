@@ -3,15 +3,25 @@
 
 
 
-Для запуску проекту нам потрібно зробити кілька кроків
 
-Завантажити репозиторій git clone https://github.com/Millrocious/python-ai.git
 
-Перейти в папку  pr2cd python-ai/pr2
+Для запуску проекту нам потрібно зробити кілька кроків:
+1. Завантажити репозиторій:
+`
+git clone https://github.com/Millrocious/python-ai.git
+`
 
-Завантажити потрібні бібліотеки через  
-python venvpython -m venv .venvsource venv/bin/activate - Для Linux.
-\.venv\Scripts\activate - Для Windows
-Після того як ми перейдемо в віртуальне середовище, завантажуємо потрібні бібліотеки:pip install -r requirements.txt
+2. Перейти в папку:
+`
+pr2cd python-ai/pr2
+`
 
-Для проекту ми будемо використовувати python 3.9 а також представленні нижче бібліотеки
+3. Завантажити потрібні бібліотеки через python venv:
+
+  ` python -m venv .venv `
+
+  ` source venv/bin/activate ` - Для Linux,
+
+  ` \.venv\Scripts\activate ` - Для Windows.
+
+Після того як ми перейдемо в віртуальне середовище, завантажуємо потрібні бібліотеки: ` pip install -r requirements.txt ` .
